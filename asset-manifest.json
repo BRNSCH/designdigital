@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/designdigital/static/css/main.45687b9d.css",
-    "main.js": "/designdigital/static/js/main.62908522.js",
+    "main.js": "/designdigital/static/js/main.f4074662.js",
     "static/media/banner.png": "/designdigital/static/media/banner.24792d13f8ae0f0c8e94.png",
     "static/media/dribble.png": "/designdigital/static/media/dribble.5bd157081aafd8bf91df.png",
     "static/media/moon.png": "/designdigital/static/media/moon.aa0519968d404fb6f25a.png",
@@ -13,10 +13,10 @@
     "static/media/linkedin.png": "/designdigital/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "index.html": "/designdigital/index.html",
     "main.45687b9d.css.map": "/designdigital/static/css/main.45687b9d.css.map",
-    "main.62908522.js.map": "/designdigital/static/js/main.62908522.js.map"
+    "main.f4074662.js.map": "/designdigital/static/js/main.f4074662.js.map"
   },
   "entrypoints": [
     "static/css/main.45687b9d.css",
-    "static/js/main.62908522.js"
+    "static/js/main.f4074662.js"
   ]
 }
