@@ -1,0 +1,148 @@
+.experiencia-secao{
+    background-color: #f6f8fc;
+    width: 100%;
+    padding: 60px 0;
+}
+.experiencia-secao-dark {
+    background-color: #393838;
+    width: 100%;
+    padding: 60px 0;
+}
+
+
+.experiencia{
+    display: block;
+   max-width: 800px;
+   width:100%;
+   margin: 0 auto;
+   padding: 20px;
+   text-align:center;
+   background-color:#f6f8fc;
+   border-radius: 5px;
+}
+.experiencia-dark {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #393838;
+    border-radius: 5px;
+}
+
+
+ .titulo-efeito h2 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    color:#32333c;
+}
+.titulo-efeito-dark h2 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    color: #cccccc;
+}
+
+
+ .titulo-efeito h2::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
+}
+ .titulo-efeito-dark h2::before {
+     position: absolute;
+     content: "";
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     width: 100px;
+     height: 4px;
+     background-color: #feb633;
+ }
+
+.experiencia p{
+    color:#8a8fa3;
+}
+
+.experiencia-dark p {
+    color: #cccccc;
+}
+
+.cards-itens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 10px ;
+    max-width: 1024px;
+
+}
+
+
+
+
+@media (max-width:768px) {
+    .experiencia-secao {
+
+        padding: 110px 10px;
+    }
+        .experiencia-secao-dark {
+    
+            padding: 110px 10px;
+        }
+
+    .titulo-efeito h2 {
+        font-size: 46px;
+    }
+         .titulo-efeito-dark h2 {
+             font-size: 46px;
+         }
+    .experiencia p {
+       font-size: 15px;
+    }
+         .experiencia-dark p {
+             font-size: 15px;
+         }
+    .cards-itens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: 60px auto 10px;
+        max-width: 1024px;
+
+    }
+}
+
+@media (max-width:375px) {
+    .experiencia-secao {
+
+        padding: 110px 0;
+    }
+    .experiencia-secao-dark{
+        padding: 110px 0;
+    }
+
+    .titulo-efeito h2 {
+        font-size: 42px;
+    }
+    .titulo-efeito-dark h2 {
+        font-size: 42px;
+    }
+}

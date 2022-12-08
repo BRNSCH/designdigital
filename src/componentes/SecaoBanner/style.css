@@ -1,0 +1,130 @@
+.div-banner{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    
+    
+}
+
+.img-banner{
+    width: calc(100% / 2 );
+    background-color: white;
+}
+
+.img-banner-dark{
+    width: calc(100% / 2 );
+    background-color: #252525;
+}
+.banner-divisao {
+    width: calc(90% / 2);
+}
+
+.banner-conteudo{
+    margin: auto;
+    color: #022144;
+    
+    
+}
+
+.banner-conteudo h2 {
+    font-weight: 500;
+    font-size: 38px;
+}
+.banner-conteudo h2 span{
+    font-weight: 800;
+}
+
+
+@media (max-width:768px) {
+    .img-banner {
+        display: none;
+    }
+         .img-banner-dark {
+             display: none;
+         }
+
+    .banner-divisao {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .div-banner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 250px 0;
+    }
+         .div-banner-dark {
+             width: 100%;
+             display: flex;
+             flex-direction: row;
+             justify-content: center;
+             margin: 0 auto;
+             padding: 250px 0;
+         }
+
+    .banner-conteudo p {
+        font-size: 12px;
+        letter-spacing: 5px;
+        font-weight: 600;
+    }
+
+    .banner-conteudo h2 {
+        font-weight: 500;
+        font-size: 48px;
+    }
+}
+
+@media (max-width:375px) {
+    .img-banner {
+        display: none;
+
+    }
+
+    .img-banner-dark {
+        display: none;
+
+    }
+
+    .banner-divisao {
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .div-banner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 160px 0;
+
+    }
+
+    .div-banner-dark {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 160px 0;
+
+    }
+
+    .banner-conteudo p {
+        font-size: 20px;
+        letter-spacing: 5px;
+        background-color: white;
+    }
+
+    .banner-conteudo h2 {
+        font-weight: 500;
+        font-size: 48px;
+    }
+}
