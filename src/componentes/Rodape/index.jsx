@@ -42,7 +42,7 @@ export default function Rodape(props) {
                 </div>
                 <br/>
                 <div className='rodape-dev'>
-                    <p>2022  -<span> Brian C</span></p>
+                    <p>2022 -<span> Brian C</span></p>
                 </div>
             </div>
         </footer>
